@@ -33,3 +33,4 @@ high hunk allocations
 void Memory_Init(void *Buffer, int BufferSize);
 
 void* Hunk_AllocName(int RequestSize, char* RequestName);
+void Hunk_Chunk(void);

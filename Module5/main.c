@@ -12,6 +12,7 @@ int main()
 
     int* MyIntPtr = (int*)Hunk_AllocName(4, "temp");
     *MyIntPtr = 4;
+    Hunk_Check();
 
     return 0;
 }
